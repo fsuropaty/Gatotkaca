@@ -1,34 +1,34 @@
 @extends('templates/main')
-@section('title', 'Masuk')
+@section('title', 'Daftar')
 
 @section('container')
-
-<link rel="stylesheet" href="./css/daftar.css">
 <body>
 <h2>Daftar Akun</h2>
-<div class="row">
-    <div class="col">
-        <h3>Nama</h3>
-        <input type="text" class="form-control">
+<div class="container">
+    <div class="mb-3">
+        <div class="col">
+            <h3>Nama</h3>
+            <input type="text" class="form-control">
+        </div>
+        <div class="mb-3">
+            <h3>Email</h3>
+            <input type="text" class="form-control">
+        </div>
     </div>
-    <div class="col">
-        <h3>Email</h3>
-        <input type="text" class="form-control">
+    <div class="mb-3">
+        <div class="col">
+            <h3>Password</h3>
+            <input type="text" class="form-control">
+        </div>
+        <div class="mb-3">
+            <h3>Ulangi Password</h3>
+            <input type="text" class="form-control">
+        </div>
     </div>
-</div>
-<div class="row">
-    <div class="col">
-        <h3>Password</h3>
-        <input type="text" class="form-control">
-    </div>
-    <div class="col">
-        <h3>Ulangi Password</h3>
-        <input type="text" class="form-control">
-    </div>
-</div>
-<div class="button">
-    <div class="d-flex justify-content-center">
-        <button type="submit" class="btn btn-primary">Daftar Akun</button>
+    <div class="button">
+        <div class="d-flex justify-content-center">
+            <button type="submit" class="btn btn-primary">Daftar Akun</button>
+        </div>
     </div>
 </div>
 </body>

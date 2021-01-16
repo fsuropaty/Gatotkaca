@@ -18,4 +18,9 @@ class HomeController extends Controller
     {
         return view('personal');
     }
+    
+    public function daftar()
+    {
+        return view('daftar');
+    }
 }

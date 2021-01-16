@@ -22,6 +22,8 @@ Route::get('/hoax', [HomeController::class, 'hoax']);
 Route::get('/berita', [NewsController::class, 'index']);
 Route::get('/personal',[HomeController::class, 'personal']);
 Route::get('/login/bantuan', [HelpController::class, 'index']);
+Route::get('/login/bantuan', [HelpController::class, 'index']);
+Route::get('/daftar', [HomeController::class, 'daftar']);
 
 Route::get('/bantuan', [HelpController::class, 'create']);
 Route::get('/bantuan/{help}', [HelpController::class, 'show']);

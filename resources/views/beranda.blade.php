@@ -5,6 +5,7 @@
 
 @section('container')
 
+
     <h1>Headline News</h1>
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -92,4 +93,5 @@
             <a2>Selasa, 5 Januari 2021</a2>
         </p1>
     </div>
+
 @endsection
