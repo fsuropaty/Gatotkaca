@@ -1,0 +1,56 @@
+body{
+    font-family: "Segoe UI Semibold" ;
+}
+.nav-link{
+    font-weight: bold;
+    justify-content: center;
+    color: black;
+    margin: 30px;
+    font-size: 20px;
+}
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.navbar-nav.navbar-right {
+    position: absolute;
+    left: 90%;
+    transform: translatex(-50%);
+}
+
+.nav-Daftar{
+    font-weight: bold;
+    justify-content: center;
+    color: white;
+    margin: 30px;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 40px;
+    background-color: gold;
+}
+
+.nav-Daftar:hover{
+    text-decoration: none;
+    color: gold;
+    background-color: white;
+}
+
+.nav-Masuk{
+    font-weight: bold;
+    justify-content: center;
+    color: gold;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 40px;
+    background-color: white;
+}
+
+.nav-Masuk:hover{
+    text-decoration: none;
+    color: white;
+    background-color: gold;
+}
+

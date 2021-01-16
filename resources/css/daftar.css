@@ -1,0 +1,32 @@
+h2{
+    padding-top: 20px;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.row{
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+.button{
+    margin-top: 50px;
+    margin-bottom: 216px;
+}
+
+.btn-primary{
+    margin: 30px;
+    padding: 10px 50px 10px 50px;
+    border-radius: 20px;
+    color: white;
+    background-color: gold;
+    border-color: gold;
+    font-size: 20px;
+}
+
+.btn-default:hover{
+    color: gold;
+    background-color: white;
+}

@@ -1,0 +1,45 @@
+h2{
+  padding-top: 20px;
+  padding-left: 190px;
+}
+
+.flex-container {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left: 200px;
+  margin-right: 200px;
+  max-width: 1000px;
+}
+
+.flex-container .box1 {
+  width: 15%;
+  margin: 10px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 30px;
+  font-size: 20px;
+}
+
+.flex-container .box2 {
+  width: 85%;
+  padding-top: 10px;
+  padding-left: 75px;
+  text-align: left;
+  line-height: 30px;
+  font-size: 20px;
+}
+
+
+.flex-container .box2 a{
+  font-size: 30px;
+  color: black;
+}
+
+.flex-container .box2 a2{
+  color: black;
+  opacity: 50%;
+  font-size: 20px;
+  margin-top: 50px;
+  bottom: 0;
+}

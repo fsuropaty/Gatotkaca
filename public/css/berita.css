@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+    padding-top: 10px;
+}
+
+#carouselExampleControls{
+    padding-top: 5px;
+    width: 75%;
+    margin: 10px auto;
+}
+
+.carousel-caption{
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 20%;
+    background-color: rgba(0, 0, 0, 0.5);
+    max-width: 100%;
+    width:100%;
+    left: 0;
+    bottom: 0;
+}
+
+.carousel-caption h3{
+    font-size: 30px;
+}
+.carousel-caption p{
+    font-size: 20px;
+}
